@@ -20,16 +20,17 @@
     var CONFIG = {"hostname":"algernon98.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="##摩尔钓鱼 题目描述：2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而">
+  <meta name="description" content="公式使用插入公式* 行中公式       $ 数学公式 $独立公式（单独成行） 1$$ 数学公式 $$ 效果  数学公式 上下标^ 表示上标, _ 表示下标。如果上下标的内容多于一个字符，需要用 {} 将这些内容括成一个整体。上下标可以嵌套，也可以同时使用。表示$x_0$   ：x_0 1$$ x^&amp;#123;y^z&amp;#125;&#x3D;(1+&amp;#123;\rm e&amp;#125;^x)^&amp;#123;-2x">
 <meta property="og:type" content="article">
-<meta property="og:title" content="flowers for Algernon">
+<meta property="og:title" content="利用Markdown写文章 公式小册（Latex）">
 <meta property="og:url" content="https://algernon98.github.io/2021/08/11/flowers-for-Algernon/index.html">
 <meta property="og:site_name" content="仿生程序员会梦见代码羊吗">
-<meta property="og:description" content="##摩尔钓鱼 题目描述：2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而">
+<meta property="og:description" content="公式使用插入公式* 行中公式       $ 数学公式 $独立公式（单独成行） 1$$ 数学公式 $$ 效果  数学公式 上下标^ 表示上标, _ 表示下标。如果上下标的内容多于一个字符，需要用 {} 将这些内容括成一个整体。上下标可以嵌套，也可以同时使用。表示$x_0$   ：x_0 1$$ x^&amp;#123;y^z&amp;#125;&#x3D;(1+&amp;#123;\rm e&amp;#125;^x)^&amp;#123;-2x">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-08-11T03:10:21.000Z">
-<meta property="article:modified_time" content="2021-08-30T16:10:20.882Z">
+<meta property="article:modified_time" content="2022-02-14T07:18:37.050Z">
 <meta property="article:author" content="Bio Sheep">
+<meta property="article:tag" content="Latex">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://algernon98.github.io/2021/08/11/flowers-for-Algernon/">
@@ -45,7 +46,7 @@
   };
 </script>
 
-  <title>flowers for Algernon | 仿生程序员会梦见代码羊吗</title>
+  <title>利用Markdown写文章 公式小册（Latex） | 仿生程序员会梦见代码羊吗</title>
   
 
 
@@ -175,7 +176,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          flowers for Algernon
+          利用Markdown写文章 公式小册（Latex）
         </h1>
 
         <div class="post-meta">
@@ -192,8 +193,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-31 00:10:20" itemprop="dateModified" datetime="2021-08-31T00:10:20+08:00">2021-08-31</time>
+                <time title="修改时间：2022-02-14 15:18:37" itemprop="dateModified" datetime="2022-02-14T15:18:37+08:00">2022-02-14</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
+                </span>
+            </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -213,64 +223,102 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>##摩尔钓鱼</p>
-<p>题目描述：<br>2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而小水道则以由北往南或者由南往北的方向与主水道相连。为了更快竣工，小摩尔们想请你帮帮忙，确定主水道的最优位置并计算出最少需要多久可以修完下水道？</p>
-<p>输入格式：</p>
-<p>第一行是一个整数n，表示参加钓鱼比赛的摩尔数量（0&lt;n&lt;10000);第二行是一个整数t，表示修建一单位的小水道花费的时间（0&lt;t&lt;10）;接下来n行是每位参赛小摩尔的家的位置，每行有两个整数x和y（-10000&lt;x,y&lt;10000),其中x表示东西方向，y表示南北方向。</p>
-<p>输出格式：</p>
-<p>仅一行，即一个整数，代表最少需要的时间。</p>
-<p>样例<br>样例输入<br>6</p>
-<p>4</p>
-<p>3  7</p>
-<p>12  5</p>
-<p>9  13</p>
-<p>20  1</p>
-<p>11 11</p>
-<p>211 -5</p>
-<p>样例输出：</p>
-<p>120</p>
-<p>数据范围与提示：</p>
-<p>0&lt;n&lt;10000</p>
-<p>0&lt;t&lt;10</p>
-<h2 id="10000-lt-x-y-lt-10000"><a href="#10000-lt-x-y-lt-10000" class="headerlink" title="-10000&lt;x,y&lt;10000"></a>-10000&lt;x,y&lt;10000</h2><p>##解题<br>根据题意，我们可以以东西主河道作为x轴，南北作为y轴，发现每一条小河道的距离为距离主河道的距离|y|，而所需时间即是|y|乘以单位时间t，与x无关，也就是说，从第三个数开始，每奇数个数读取后不产生作用，计算式不需要考虑x。</p>
-<p>所以解答程序有以下几个要点：</p>
-<p>1.构造一个循环，一次读入输入的所有数字，并储存。</p>
-<p>2.求得y轴上一点，使得该点距离其他点的距离之和（一次线性）最短</p>
-<p>3.求得以该点为x轴时各点纵坐标的绝对值之和。</p>
-<p>注意：数据范围（这一点会在之后详细阐述）</p>
-<p>以下是第一次的代码</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line"> </span><br><span class="line">#include&lt;math.h&gt;</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">int split(long a[], int low, int high)</span><br><span class="line">&#123;</span><br><span class="line">	int part_element = a[low];</span><br><span class="line"> </span><br><span class="line">​	for (;;) &#123;</span><br><span class="line">​		while (low &lt; high &amp;&amp; part_element &lt;= a[high])</span><br><span class="line">​			high--;</span><br><span class="line">​		if (low &gt;= high)</span><br><span class="line">​			break;</span><br><span class="line">​		a[low++] = a[high];</span><br><span class="line"> </span><br><span class="line">​		while (low &lt; high &amp;&amp; a[low] &lt;= part_element)</span><br><span class="line">​			low++;</span><br><span class="line">​		if (low &gt;= high) break;</span><br><span class="line">​		a[high--] = a[low];</span><br><span class="line">​	&#125;</span><br><span class="line"> </span><br><span class="line">​	a[high] = part_element;</span><br><span class="line">​	return high;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">void quicksort(long a[], int low, int high)</span><br><span class="line">&#123;</span><br><span class="line">	int middle;</span><br><span class="line"> </span><br><span class="line">​	if (low &gt;= high)</span><br><span class="line">​		return;</span><br><span class="line">​	middle = split(a, low, high);</span><br><span class="line">​	quicksort(a, low, middle - 1);</span><br><span class="line">​	quicksort(a, middle + 1, high);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main() &#123;</span><br><span class="line">	long n, num, sum, target;</span><br><span class="line">	int t;</span><br><span class="line">	long x[10];</span><br><span class="line">	long y[10];</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;n);</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;t);</span><br><span class="line">	for (long i = 0; i &lt; n; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		x[i] = scanf(&quot;%d&quot;, &amp;x[i]);</span><br><span class="line">		y[i] = scanf(&quot;%d&quot;, &amp;y[i]);</span><br><span class="line"> </span><br><span class="line">​	&#125;</span><br><span class="line"> </span><br><span class="line">​	quicksort(y, 0, n - 1);</span><br><span class="line">​	if (n % 2 == 0)</span><br><span class="line">​		num = (y[n / 2] + y[n / 2 - 1]) / 2;</span><br><span class="line">​	else</span><br><span class="line">​		num = y[(n/2) ] ;</span><br><span class="line"> </span><br><span class="line">​	for (long i = 0; i &lt; n; i++) &#123;</span><br><span class="line">​	 sum += abs(y[i] - num);</span><br><span class="line">​	&#125;</span><br><span class="line"> </span><br><span class="line">​	target = sum * t;</span><br><span class="line">​	printf(&quot;%d&quot;, target);</span><br><span class="line"> </span><br><span class="line">​	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>我的思路是，使用一个快速排序算法，将y所储存的数字按照从低到高排序，之后取中位数：</p>
-<p>当这一系列数字个数为奇数时，中位数到各点距离之和最短；</p>
-<p>当这一系列数字个数为偶数时，最中间两点间任意数字到各点距离之和想等且最短。</p>
-<p>然而在devC++上代入样例时发现无法得到预期结果。</p>
-<p>分析原因：</p>
-<p>最开始希望变长数组能够按照输入的数字改变长度，在声明时使用 int x[t]的形式，报错，再看题，数据范围0&lt;t&lt;10,改为 x[10] .</p>
-<p>根据输出结果推测，输出=t，可知y的读取和平均数的计算中有一部分出了错。</p>
-<p>于是修改代码，首先使用C++库中的sort函数简化；</p>
-<p>其次，根据题意，将数组扩大到10000；</p>
-<p>修改代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include&lt;cmath&gt;</span><br><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">int main() &#123;</span><br><span class="line">	using namespace std;</span><br><span class="line">	int n, target;</span><br><span class="line">	int t;</span><br><span class="line">	int num;</span><br><span class="line"> </span><br><span class="line">​	scanf(&quot;%d&quot;, &amp;n);</span><br><span class="line">​	scanf(&quot;%d&quot;, &amp;t);</span><br><span class="line">​	int a[10000];</span><br><span class="line">​	int b[10000];</span><br><span class="line">​	for (int i = 0; i &lt; n; i++)</span><br><span class="line">​	&#123;</span><br><span class="line">​		scanf(&quot;%d&quot;, &amp;a[i]);</span><br><span class="line">​		scanf(&quot;%d&quot;, &amp;b[i]);</span><br><span class="line"> </span><br><span class="line">​	&#125;</span><br><span class="line">​	</span><br><span class="line">​	sort(b, b + n);</span><br><span class="line">​	if (n % 2 == 0)</span><br><span class="line">​		num = b[n / 2];</span><br><span class="line">​	else if (n == 1)</span><br><span class="line">​		return 0;</span><br><span class="line">​	else </span><br><span class="line">​		num = ((b[n / 2 - 1] + b[n / 2]) / 2);</span><br><span class="line">​	</span><br><span class="line">  </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">	int sum = 0;</span><br><span class="line">	for (int i = 0; i &lt; n; i++) &#123;</span><br><span class="line">	sum += abs(b[i] - num);</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">​	</span><br><span class="line">​	target = t *  sum ;</span><br><span class="line">​	</span><br><span class="line"> </span><br><span class="line">​	printf(&quot;%d\n&quot;, target);</span><br><span class="line"> </span><br><span class="line">​	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>代码已经可以满足样例，但oj上只有60分。</p>
-<p>继续分析：</p>
-<p>测试数据部分可以通过，部分不能。怀疑是奇偶数出错，即中位数出问题。</p>
-<p>（最后确实是中位数写反了，但那都是后话了）</p>
-<p>当时没有觉得算法出了什么问题，而且有的情况会超时，怀疑是数组越界，于是翻书，修改声明。</p>
-<p>朋友的建议下使用long long.</p>
-<p>之后选择查找的算法，使用三分查找；</p>
-<p>修改后代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># include &lt;cstdio&gt;</span><br><span class="line"># include &lt;cmath&gt;</span><br><span class="line"># include &lt;algorithm&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int N = 2e4 + 12;</span><br><span class="line">int n;</span><br><span class="line">long long t,m = 0x7fffffff,y[N];</span><br><span class="line">long long check(long long k)</span><br><span class="line">&#123;</span><br><span class="line">    long long ans = 0;</span><br><span class="line">    for(int i = 1;i &lt;= n;i++)</span><br><span class="line">    ans += abs(y[i] - k);</span><br><span class="line">    return ans;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    scanf(&quot;%d %lld&quot;,&amp;n,&amp;t);</span><br><span class="line">    for(int i = 1;i &lt;= n;i++)</span><br><span class="line">     for(int j = 0;j &lt; 2;j++)</span><br><span class="line">      scanf(&quot;%lld&quot;,&amp;y[i]);</span><br><span class="line">    sort(y + 1,y + n + 1);</span><br><span class="line">    long long l = y[1],r = y[n],mid1,mid2;</span><br><span class="line">    while(l + 5 &lt; r)</span><br><span class="line">    &#123;</span><br><span class="line">        mid1 = l + (r - l) / 3,</span><br><span class="line">      mid2 = l + (r - l) / 3 * 2;</span><br><span class="line">        if(check(mid1) &lt; check(mid2))r = mid2;</span><br><span class="line">        else l = mid1;</span><br><span class="line">    &#125; </span><br><span class="line">    for(int i = l;i &lt;= r;i++)m = min(m,check(i));</span><br><span class="line">    printf(&quot;%lld\n&quot;,m * t);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>abs函数用来求绝对值，声明改为long long.</p>
-<p>AC.</p>
-<p>但后续和学长交流得知，当初理解没问题，后续想复杂了。</p>
-<p>感想：</p>
-<p>1.分析题目第一重要，虽然看着很像查找但最终思路很简单；</p>
-<p>2.代码规范，对C++还不熟悉，代码中c与c++杂糅，需要尽快从c转向c++；</p>
-<p>3.多刷刷洛谷，不能再一道题做一天了。</p>
-<p>最后附上正解（python)   （来自学长）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">n = eval(input())</span><br><span class="line">t = eval(input())</span><br><span class="line">y_pos = []</span><br><span class="line">y_max = -1</span><br><span class="line">y_min = 100000000</span><br><span class="line">distance = 100000000</span><br><span class="line">for i in range(n):</span><br><span class="line">    temp = input()</span><br><span class="line">    temp = int(temp.split(&quot; &quot;)[1])</span><br><span class="line">    y_pos.append(temp)</span><br><span class="line">    if(temp &gt; y_max):</span><br><span class="line">        y_max = temp</span><br><span class="line">    if(temp &lt; y_min):</span><br><span class="line">        y_min = temp</span><br><span class="line">for i in range(y_min, y_max+1):</span><br><span class="line">    temp = 0</span><br><span class="line">    No = 0</span><br><span class="line">    for j in range(n):</span><br><span class="line">        temp += t*abs(y_pos[j]-i)</span><br><span class="line">    if(temp &lt; distance):</span><br><span class="line">        distance = temp</span><br><span class="line">print(distance)</span><br></pre></td></tr></table></figure>
-
-<p>————————————————<br>版权声明：本文为CSDN博主「Algernon98」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/Algernon98/article/details/120004477">https://blog.csdn.net/Algernon98/article/details/120004477</a></p>
+        <hr>
+<h1 id="公式使用"><a href="#公式使用" class="headerlink" title="公式使用"></a>公式使用</h1><h2 id="插入公式"><a href="#插入公式" class="headerlink" title="插入公式"></a>插入公式</h2><p>*</p>
+<p>行中公式       <code>$ 数学公式 $</code><br>独立公式（单独成行）</p>
+<figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ 数学公式 $$</span><br></pre></td></tr></table></figure>
+<p>效果</p>
+<blockquote>
+<script type="math/tex; mode=display">数学公式</script></blockquote>
+<h2 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h2><p>^ 表示上标, _ 表示下标。如果上下标的内容多于一个字符，需要用 {} 将这些内容括成一个整体。上下标可以嵌套，也可以同时使用。<br>表示$x_0$   ：<script type="math/tex">x_0</script></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ x^&#123;y^z&#125;=(1+&#123;\rm e&#125;^x)^&#123;-2xy^w&#125; $$</span><br></pre></td></tr></table></figure>
+<p>效果</p>
+<script type="math/tex; mode=display">x^{y^z}=(1+{\rm e}^x)^{-2xy^w}</script><p>另外，如果要在左右两边都有上下标，可以使用 \sideset 命令；也可以简单地在符号前面多打一个上下标，此时会以行内公式渲染。</p>
+<h2 id="输入分数"><a href="#输入分数" class="headerlink" title="输入分数"></a>输入分数</h2><p>通常使用 \frac {分子} {分母} 来生成一个分数，分数可多层嵌套。如果分式较为复杂，亦可使用 分子 \over 分母 此时分数仅有一层。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ \frac&#123;a-1&#125;&#123;b-1&#125; \quad or \quad &#123;a+1 \over b+1&#125; $$</span><br></pre></td></tr></table></figure>
+<p>输出</p>
+<script type="math/tex; mode=display">\frac{a-1}{b-1} \quad or \quad {a+1 \over b+1}</script><p>当分式 仅有两个字符时 可直接输入 \frac ab 来快速生成一个                 $\frac ab$</p>
+<h2 id="开方"><a href="#开方" class="headerlink" title="开方"></a>开方</h2><p>使用 \sqrt [根指数，省略时为2] {被开方数} 命令输入开方。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\sqrt[3]&#123;a&#125;$</span><br></pre></td></tr></table></figure>
+<p>输出$\sqrt[3]{a}$</p>
+<h2 id="省略号"><a href="#省略号" class="headerlink" title="省略号"></a>省略号</h2><p>数学公式中常见的省略号有两种，<br>\ldots 表示与 文本底线 对齐的省略号              $\ldots$<br>\cdots 表示与 文本中线 对齐的省略号$\cdots$</p>
+<h2 id="积分"><a href="#积分" class="headerlink" title="积分"></a>积分</h2><p>使用 \int_积分下限^积分上限 {被积表达式} 来输入一个积分。<br>例子<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ \int_0^1 &#123;x^2&#125; \,&#123;\rm d&#125;x $$</span><br></pre></td></tr></table></figure><br>输出</p>
+<script type="math/tex; mode=display">\int_0^1 {x^2} \,{\rm d}x</script><h2 id="极限运算"><a href="#极限运算" class="headerlink" title="极限运算"></a>极限运算</h2><p>使用 \lim_{变量 \to 表达式} 表达式 来输入一个极限。如有需求，可以更改 \to 符号至任意符号。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$$ \lim_&#123;n \to \infty&#125; \frac&#123;1&#125;&#123;n(n+1)&#125; \quad and \quad \lim_&#123;x\leftarrow&#123;示例&#125;&#125; \frac&#123;1&#125;&#123;n(n+1)&#125; $$</span><br></pre></td></tr></table></figure>
+<script type="math/tex; mode=display">\lim_{n \to \infty} \frac{1}{n(n+1)} \quad and \quad \lim_{x\leftarrow{示例}} \frac{1}{n(n+1)}</script><h1 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h1><p>输入 \小写希腊字母英文全称 和 \首字母大写希腊字母英文全称 来分别输入小写和大写希腊字母。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>显示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\alpha</td>
+<td>$\alpha$</td>
+</tr>
+<tr>
+<td>\beta</td>
+<td>$\beta$</td>
+</tr>
+<tr>
+<td>\gamma</td>
+<td>$\gamma$</td>
+</tr>
+<tr>
+<td>\delta</td>
+<td>$\delta$</td>
+</tr>
+<tr>
+<td>\epsilon</td>
+<td>$\epsilon$</td>
+</tr>
+<tr>
+<td>\zeta</td>
+<td>$\zeta$</td>
+</tr>
+<tr>
+<td>\eta</td>
+<td>$\eta$</td>
+</tr>
+<tr>
+<td>\theta</td>
+<td>$\theta$</td>
+</tr>
+<tr>
+<td>\lambda</td>
+<td>$\lambda$</td>
+</tr>
+<tr>
+<td>\mu</td>
+<td>$\mu$</td>
+</tr>
+<tr>
+<td>\nu</td>
+<td>$\nu$</td>
+</tr>
+<tr>
+<td>\pi</td>
+<td>$\pi$</td>
+</tr>
+<tr>
+<td>\rho</td>
+<td>$\rho$</td>
+</tr>
+<tr>
+<td>\sigma</td>
+<td>$\sigma$</td>
+</tr>
+<tr>
+<td>\omega</td>
+<td>$\omega$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>资料来源：<a target="_blank" rel="noopener" href="https://www.zybuluo.com/codeep/note/163962#1%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%85%AC%E5%BC%8F">https://www.zybuluo.com/codeep/note/163962#1%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%85%AC%E5%BC%8F</a></p>
 
     </div>
 
@@ -298,6 +346,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Latex/" rel="tag"># Latex</a>
+          </div>
 
         
 
@@ -309,8 +360,8 @@
       <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/" rel="next" title="青年在选择职业时的考虑">
-      青年在选择职业时的考虑 <i class="fa fa-chevron-right"></i>
+    <a href="/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/" rel="next" title="统计学习讨论 笔记">
+      统计学习讨论 笔记 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -370,7 +421,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#10000-lt-x-y-lt-10000"><span class="nav-number">1.</span> <span class="nav-text">-10000&lt;x,y&lt;10000</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%AC%E5%BC%8F%E4%BD%BF%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">公式使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E5%85%AC%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">插入公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8A%E4%B8%8B%E6%A0%87"><span class="nav-number">1.2.</span> <span class="nav-text">上下标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E5%88%86%E6%95%B0"><span class="nav-number">1.3.</span> <span class="nav-text">输入分数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E6%96%B9"><span class="nav-number">1.4.</span> <span class="nav-text">开方</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9C%81%E7%95%A5%E5%8F%B7"><span class="nav-number">1.5.</span> <span class="nav-text">省略号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A7%AF%E5%88%86"><span class="nav-number">1.6.</span> <span class="nav-text">积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9E%81%E9%99%90%E8%BF%90%E7%AE%97"><span class="nav-number">1.7.</span> <span class="nav-text">极限运算</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D"><span class="nav-number">2.</span> <span class="nav-text">希腊字母</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -386,14 +437,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -444,7 +501,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -524,6 +581,63 @@
 
 
   
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

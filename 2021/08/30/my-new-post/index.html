@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"algernon98.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="- idea 大部分统计学习问题分为以下两种类型：指导学习和无指导学习。对每一个预测变量$x_i$(i&#x3D;1,…,n)都有相应变量的观测$y_i$。建模的目标是通过建立预测变量与响应变量的关系，精准预测响应变量或更好理解响应变量与预测变量的关系。    许多传统的统计学习方法，比如线性回归和逻辑斯谛回归，以及诸如广义可加模型、提升方法和支持向量机等比较现代的方法，都属于指导学习范畴。   对于无指导">
+  <meta name="description" content="摩尔钓鱼题目描述：2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而小水道">
 <meta property="og:type" content="article">
-<meta property="og:title" content="统计学习讨论 笔记">
-<meta property="og:url" content="https://algernon98.github.io/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/index.html">
+<meta property="og:title" content="由“摩尔钓鱼”想到的">
+<meta property="og:url" content="https://algernon98.github.io/2021/08/30/my-new-post/index.html">
 <meta property="og:site_name" content="仿生程序员会梦见代码羊吗">
-<meta property="og:description" content="- idea 大部分统计学习问题分为以下两种类型：指导学习和无指导学习。对每一个预测变量$x_i$(i&#x3D;1,…,n)都有相应变量的观测$y_i$。建模的目标是通过建立预测变量与响应变量的关系，精准预测响应变量或更好理解响应变量与预测变量的关系。    许多传统的统计学习方法，比如线性回归和逻辑斯谛回归，以及诸如广义可加模型、提升方法和支持向量机等比较现代的方法，都属于指导学习范畴。   对于无指导">
+<meta property="og:description" content="摩尔钓鱼题目描述：2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而小水道">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-11T08:50:43.000Z">
-<meta property="article:modified_time" content="2022-02-14T07:20:48.035Z">
+<meta property="article:published_time" content="2021-08-30T15:30:32.000Z">
+<meta property="article:modified_time" content="2022-02-14T07:19:47.091Z">
 <meta property="article:author" content="Bio Sheep">
-<meta property="article:tag" content="统计学习">
+<meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://algernon98.github.io/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/">
+<link rel="canonical" href="https://algernon98.github.io/2021/08/30/my-new-post/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>统计学习讨论 笔记 | 仿生程序员会梦见代码羊吗</title>
+  <title>由“摩尔钓鱼”想到的 | 仿生程序员会梦见代码羊吗</title>
   
 
 
@@ -163,7 +163,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://algernon98.github.io/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/">
+    <link itemprop="mainEntityOfPage" href="https://algernon98.github.io/2021/08/30/my-new-post/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -176,7 +176,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          统计学习讨论 笔记
+          由“摩尔钓鱼”想到的
         </h1>
 
         <div class="post-meta">
@@ -186,14 +186,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-08-11 16:50:43" itemprop="dateCreated datePublished" datetime="2021-08-11T16:50:43+08:00">2021-08-11</time>
+              <time title="创建时间：2021-08-30 23:30:32" itemprop="dateCreated datePublished" datetime="2021-08-30T23:30:32+08:00">2021-08-30</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-02-14 15:20:48" itemprop="dateModified" datetime="2022-02-14T15:20:48+08:00">2022-02-14</time>
+                <time title="修改时间：2022-02-14 15:19:47" itemprop="dateModified" datetime="2022-02-14T15:19:47+08:00">2022-02-14</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -201,7 +201,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">算法</span></a>
+                  <a href="/categories/%E7%AB%9E%E8%B5%9B/" itemprop="url" rel="index"><span itemprop="name">竞赛</span></a>
                 </span>
             </span>
 
@@ -223,80 +223,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="idea"><a href="#idea" class="headerlink" title="- idea "></a>- idea </h2><p>大部分统计学习问题分为以下两种类型：指导学习和无指导学习。对每一个预测变量$x_i$(i=1,…,n)都有相应变量的观测$y_i$。建模的目标是通过建立预测变量与响应变量的关系，精准预测响应变量或更好理解响应变量与预测变量的关系。<br>    许多传统的统计学习方法，比如线性回归和逻辑斯谛回归，以及诸如广义可加模型、提升方法和支持向量机等比较现代的方法，都属于指导学习范畴。<br>   对于无指导学习，只有预测变量的观测向量，这些向量没有相应的响应向量与之对应。聚类分析可以用到无指导学习。<br>   半指导学习不提及。</p>
-<p>   我们习惯于将响应变量为定量的问题称为回归分析问题，而将具有定性响应变量的问题定义为分类问题。</p>
-<ul>
-<li>贝叶斯分类器</li>
-<li><p>贝叶斯决策边界</p>
-<p>贝叶斯分类器将产生最低的测试错误率，称为贝叶斯错误率。</p>
-</li>
-<li><p>K最近邻方法</p>
-</li>
-<li>K最近邻分类器</li>
-</ul>
-<h2 id="线性回归"><a href="#线性回归" class="headerlink" title="线性回归"></a>线性回归</h2><p>1.简单线性回归<br>假定X和Y之间存在线性关系，在数学上，又可以将这种线性关系记为：</p>
-<p>   <em>Y</em> $\approx$  $\beta_0$ + $\beta_1$<em>X</em><br>有时会将公式称为Y对X的回归。$\beta_0$和$\beta_1$被称为模型的系数或参数。<br><strong>最小二乘估计</strong></p>
-<p>总体回归直线<br><em>Y</em> $\approx$  $\beta_0$ + $\beta_1$<em>X</em> + $\epsilon$</p>
-<p>2.多元线性回归<br>假设有p个不同的观测变量，则多元线性回归模型的形式为：<br><em>Y</em> $\approx$  $\beta_0$ + $\beta_1X _1$+ $\beta_2X_2$+ ···+$\beta_pX_p$+ $\epsilon$</p>
-<p>最小二乘平面只是对真实总体回归平面的一个估计。我们可以计算<strong>置信区间</strong>以确定到$\hat{y}$与<em>f</em>(X)的接近程度。                                                         </p>
-<p>数据的非线性——残差图</p>
-<ul>
-<li>离群点</li>
-<li>高杠杆点</li>
-<li>共线性</li>
-</ul>
-<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><p>逻辑斯谛回归<br><em>p</em>(X)  =  $\beta_0$ + $\beta_0$<em>X</em></p>
-<p>使用逻辑斯谛函数     </p>
-<p><em>p</em>(X)  = $\cfrac{e^{\beta_0+\beta_1X}}{1+e^{\beta_0+\beta_1X}}$</p>
-<p>二次判别分析</p>
-<h2 id="线性模型选择与正则化"><a href="#线性模型选择与正则化" class="headerlink" title="线性模型选择与正则化"></a>线性模型选择与正则化</h2><ul>
-<li>子集选择</li>
-<li>压缩估计</li>
-<li>降维法</li>
-</ul>
-<p>1.子集选择<br><strong>最优子集选择</strong>，即对p个预测变量的所有组合分别使用最小二乘回归进行拟合。<br><strong>逐步选择</strong></p>
-<ol>
-<li>向前逐步选择</li>
-</ol>
-<p>向前逐步选择以一个不包含任何预测变量的零模型为起点，依次往模型中添加变量，直至所有的预测变量都包含在模型中。特别之处在于，每次只将能够最大限度提升模型效果的变量加入模型中。</p>
-<ol>
-<li>向后逐步选择<br>以包含全部p个变量的全模型为起点，逐次迭代，每次移除一个对模型拟合结果最不利的变量。</li>
-</ol>
-<p><strong>选择最优模型</strong></p>
-<ul>
-<li>$C_p$</li>
-<li>赤池信息量准则</li>
-<li><p>贝叶斯信息准则（BIC）与调整$R^2$</p>
-<p>2.压缩估计方法<br>使用对系数进行约束或加罚的技巧对包含p个预测变量的模型进行拟合，将系数估计值往零的方向压缩。</p>
-</li>
-</ul>
-<p><strong>岭回归</strong></p>
-<p><strong>lasso</strong><br>lasso建立的模型与岭回归建立的模型相比更易于解释。lasso得到了一个<strong>稀疏模型</strong>———只包含所有变量的一个子集的模型。 </p>
-<p>3.降维方法<br>将预测变量进行变换，然后用转换之后的变量拟合最小二乘模型。</p>
-<ul>
-<li>主成分</li>
-<li><p>偏最小二乘</p>
-<p><strong>主成分分析</strong>是一种可以从多个变量中得到低维变量的有效方法。</p>
-</li>
-</ul>
-<h2 id="非线性模型"><a href="#非线性模型" class="headerlink" title="非线性模型"></a>非线性模型</h2><ul>
-<li>多项式回归</li>
-<li>阶梯函数</li>
-<li>回归样条</li>
-<li>光滑样条</li>
-<li>局部回归</li>
-<li><p>广义可加模型</p>
-<p><strong>分段多项式</strong><br>分段多项式回归在X的不同区域拟合独立的低阶多项式函数，以此取代在X全部取值范围内拟合高阶多项式</p>
-</li>
-</ul>
-<p><strong>局部回归</strong><br>局部回归是拟合光滑非线性函数的另外一种方法，在对一个目标观测点<br>$x_0$拟合时，该方法只用到这个点附近的训练观测。</p>
-<h2 id="基于树的方法"><a href="#基于树的方法" class="headerlink" title="基于树的方法"></a>基于树的方法</h2><p>基于树的回归和分类方法，这些方法主要是根据<strong>分层</strong>和<strong>分割</strong>的方式将预测变量空间划分为一系列简单区域。对某个给定待预测的观测值，用它所属区域中训练集的平均值或众数对其进行评测。</p>
-<p><strong>回归树</strong></p>
-<p>剪枝</p>
-<p><strong>分类树</strong><br>分类树被用于预测定性变量而非定量变量。</p>
-<p><strong>随机森林</strong><br>随机森林通过对树作去相关处理，实现对装袋法树的改进。</p>
-<p>提升法</p>
-<h2 id="支持向量机"><a href="#支持向量机" class="headerlink" title="支持向量机"></a>支持向量机</h2>
+        <h2 id="摩尔钓鱼"><a href="#摩尔钓鱼" class="headerlink" title="摩尔钓鱼"></a>摩尔钓鱼</h2><p>题目描述：<br>2021年的暑假到了，小摩尔们看着手游版波光粼粼的小河，觉得钓鱼会是一个很完美的夏日活动。可是参加活动的摩尔数量太多了，本着爱与和平的原则，为了不让小摩尔们为了争夺场地而吵架，几只聪明的小摩尔决定从一条有着各种各样小鱼的大河修建一个主水道引河水，再通过修建小水道把主水道的河水引到每个小摩尔的家门口。考虑到美观和地形优势，这几只聪明的小摩尔决定按照由东向西的方向修建主水道，而小水道则以由北往南或者由南往北的方向与主水道相连。为了更快竣工，小摩尔们想请你帮帮忙，确定主水道的最优位置并计算出最少需要多久可以修完下水道？</p>
+<p>输入格式：</p>
+<p>第一行是一个整数n，表示参加钓鱼比赛的摩尔数量（0&lt;n&lt;10000);第二行是一个整数t，表示修建一单位的小水道花费的时间（0&lt;t&lt;10）;接下来n行是每位参赛小摩尔的家的位置，每行有两个整数x和y（-10000&lt;x,y&lt;10000),其中x表示东西方向，y表示南北方向。</p>
+<p>输出格式：</p>
+<p>仅一行，即一个整数，代表最少需要的时间。</p>
+<p>样例<br>样例输入<br>6</p>
+<p>4</p>
+<p>3  7</p>
+<p>12  5</p>
+<p>9  13</p>
+<p>20  1</p>
+<p>11 11</p>
+<p>211 -5</p>
+<p>样例输出：</p>
+<p>120</p>
+<p>数据范围与提示：</p>
+<p>0&lt;n&lt;10000</p>
+<p>0&lt;t&lt;10</p>
+<h2 id="10000-lt-x-y-lt-10000"><a href="#10000-lt-x-y-lt-10000" class="headerlink" title="-10000&lt;x,y&lt;10000"></a>-10000&lt;x,y&lt;10000</h2><h2 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h2><p>根据题意，我们可以以东西主河道作为x轴，南北作为y轴，发现每一条小河道的距离为距离主河道的距离|y|，而所需时间即是|y|乘以单位时间t，与x无关，也就是说，从第三个数开始，每奇数个数读取后不产生作用，计算式不需要考虑x。</p>
+<p>所以解答程序有以下几个要点：</p>
+<p>1.构造一个循环，一次读入输入的所有数字，并储存。</p>
+<p>2.求得y轴上一点，使得该点距离其他点的距离之和（一次线性）最短</p>
+<p>3.求得以该点为x轴时各点纵坐标的绝对值之和。</p>
+<p>注意：数据范围（这一点会在之后详细阐述）</p>
+<p>以下是第一次的代码</p>
+<h1 id="include"><a href="#include" class="headerlink" title="include"></a>include<stdio.h></h1><h1 id="include-1"><a href="#include-1" class="headerlink" title="include"></a>include<math.h></h1><p>int split(long a[], int low, int high)<br>{<br>    int part_element = a[low];</p>
+<p>​    for (;;) {<br>​        while (low &lt; high &amp;&amp; part_element &lt;= a[high])<br>​            high—;<br>​        if (low &gt;= high)<br>​            break;<br>​        a[low++] = a[high];</p>
+<p>​        while (low &lt; high &amp;&amp; a[low] &lt;= part_element)<br>​            low++;<br>​        if (low &gt;= high) break;<br>​        a[high—] = a[low];<br>​    }</p>
+<p>​    a[high] = part_element;<br>​    return high;<br>}</p>
+<p>void quicksort(long a[], int low, int high)<br>{<br>    int middle;</p>
+<p>​    if (low &gt;= high)<br>​        return;<br>​    middle = split(a, low, high);<br>​    quicksort(a, low, middle - 1);<br>​    quicksort(a, middle + 1, high);<br>}</p>
+<p>int main() {<br>    long n, num, sum, target;<br>    int t;<br>    long x[10];<br>    long y[10];<br>    scanf(“%d”, &amp;n);<br>    scanf(“%d”, &amp;t);<br>    for (long i = 0; i &lt; n; i++)<br>    {<br>        x[i] = scanf(“%d”, &amp;x[i]);<br>        y[i] = scanf(“%d”, &amp;y[i]);</p>
+<p>​    }</p>
+<p>​    quicksort(y, 0, n - 1);<br>​    if (n % 2 == 0)<br>​        num = (y[n / 2] + y[n / 2 - 1]) / 2;<br>​    else<br>​        num = y[(n/2) ] ;</p>
+<p>​    for (long i = 0; i &lt; n; i++) {<br>​     sum += abs(y[i] - num);<br>​    }</p>
+<p>​    target = sum * t;<br>​    printf(“%d”, target);</p>
+<p>​    return 0;<br>}<br>我的思路是，使用一个快速排序算法，将y所储存的数字按照从低到高排序，之后取中位数：</p>
+<p>当这一系列数字个数为奇数时，中位数到各点距离之和最短；</p>
+<p>当这一系列数字个数为偶数时，最中间两点间任意数字到各点距离之和想等且最短。</p>
+<p>然而在devC++上代入样例时发现无法得到预期结果。</p>
+<p>分析原因：</p>
+<p>最开始希望变长数组能够按照输入的数字改变长度，在声明时使用 int x[t]的形式，报错，再看题，数据范围0&lt;t&lt;10,改为 x[10] .</p>
+<p>根据输出结果推测，输出=t，可知y的读取和平均数的计算中有一部分出了错。</p>
+<p>于是修改代码，首先使用C++库中的sort函数简化；</p>
+<p>其次，根据题意，将数组扩大到10000；</p>
+<p>修改代码如下：</p>
+<h1 id="include-2"><a href="#include-2" class="headerlink" title="include"></a>include<iostream></h1><h1 id="include-3"><a href="#include-3" class="headerlink" title="include"></a>include<cmath></h1><h1 id="include-4"><a href="#include-4" class="headerlink" title="include"></a>include<stdio.h></h1><h1 id="include-5"><a href="#include-5" class="headerlink" title="include"></a>include<algorithm></h1><p>int main() {<br>    using namespace std;<br>    int n, target;<br>    int t;<br>    int num;</p>
+<p>​    scanf(“%d”, &amp;n);<br>​    scanf(“%d”, &amp;t);<br>​    int a[10000];<br>​    int b[10000];<br>​    for (int i = 0; i &lt; n; i++)<br>​    {<br>​        scanf(“%d”, &amp;a[i]);<br>​        scanf(“%d”, &amp;b[i]);</p>
+<p>​    }<br>​<br>​    sort(b, b + n);<br>​    if (n % 2 == 0)<br>​        num = b[n / 2];<br>​    else if (n == 1)<br>​        return 0;<br>​    else<br>​        num = ((b[n / 2 - 1] + b[n / 2]) / 2);<br>​    </p>
+<pre><code>int sum = 0;
+for (int i = 0; i &lt; n; i++) &#123;
+sum += abs(b[i] - num);
+&#125;
+</code></pre><p>​<br>​    target = t *  sum ;<br>​    </p>
+<p>​    printf(“%d\n”, target);</p>
+<p>​    return 0;<br>}<br>代码已经可以满足样例，但oj上只有60分。</p>
+<p>继续分析：</p>
+<p>测试数据部分可以通过，部分不能。怀疑是奇偶数出错，即中位数出问题。</p>
+<p>（最后确实是中位数写反了，但那都是后话了）</p>
+<p>当时没有觉得算法出了什么问题，而且有的情况会超时，怀疑是数组越界，于是翻书，修改声明。</p>
+<p>朋友的建议下使用long long.</p>
+<p>之后选择查找的算法，使用三分查找；</p>
+<p>修改后代码如下：</p>
+<h1 id="include-6"><a href="#include-6" class="headerlink" title="include "></a>include <cstdio></h1><h1 id="include-7"><a href="#include-7" class="headerlink" title="include "></a>include <cmath></h1><h1 id="include-8"><a href="#include-8" class="headerlink" title="include "></a>include <algorithm></h1><p>using namespace std;<br>const int N = 2e4 + 12;<br>int n;<br>long long t,m = 0x7fffffff,y[N];<br>long long check(long long k)<br>{<br>    long long ans = 0;<br>    for(int i = 1;i &lt;= n;i++)<br>    ans += abs(y[i] - k);<br>    return ans;<br>}<br>int main()<br>{<br>    scanf(“%d %lld”,&amp;n,&amp;t);<br>    for(int i = 1;i &lt;= n;i++)<br>     for(int j = 0;j &lt; 2;j++)<br>      scanf(“%lld”,&amp;y[i]);<br>    sort(y + 1,y + n + 1);<br>    long long l = y[1],r = y[n],mid1,mid2;<br>    while(l + 5 &lt; r)<br>    {<br>        mid1 = l + (r - l) / 3,<br>      mid2 = l + (r - l) / 3 <em> 2;<br>        if(check(mid1) &lt; check(mid2))r = mid2;<br>        else l = mid1;<br>    }<br>    for(int i = l;i &lt;= r;i++)m = min(m,check(i));<br>    printf(“%lld\n”,m </em> t);<br>}<br>abs函数用来求绝对值，声明改为long long.</p>
+<p>AC.</p>
+<p>但后续和学长交流得知，当初理解没问题，后续想复杂了。</p>
+<p>感想：</p>
+<p>1.分析题目第一重要，虽然看着很像查找但最终思路很简单；</p>
+<p>2.代码规范，对C++还不熟悉，代码中c与c++杂糅，需要尽快从c转向c++；</p>
+<p>3.多刷刷洛谷，不能再一道题做一天了。</p>
+<p>最后附上正解（python)   （来自学长）</p>
+<p>n = eval(input())<br>t = eval(input())<br>y_pos = []<br>y_max = -1<br>y_min = 100000000<br>distance = 100000000<br>for i in range(n):<br>    temp = input()<br>    temp = int(temp.split(“ “)[1])<br>    y_pos.append(temp)<br>    if(temp &gt; y_max):<br>        y_max = temp<br>    if(temp &lt; y_min):<br>        y_min = temp<br>for i in range(y_min, y_max+1):<br>    temp = 0<br>    No = 0<br>    for j in range(n):<br>        temp += t*abs(y_pos[j]-i)<br>    if(temp &lt; distance):<br>        distance = temp<br>print(distance)</p>
+<p>————————————————<br>版权声明：本文为CSDN博主「Algernon98」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/Algernon98/article/details/120004477">https://blog.csdn.net/Algernon98/article/details/120004477</a></p>
+
     </div>
 
     
@@ -324,7 +324,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/" rel="tag"># 统计学习</a>
+              <a href="/tags/C/" rel="tag"># C++</a>
           </div>
 
         
@@ -333,12 +333,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/08/11/flowers-for-Algernon/" rel="prev" title="利用Markdown写文章 公式小册（Latex）">
-      <i class="fa fa-chevron-left"></i> 利用Markdown写文章 公式小册（Latex）
+    <a href="/2021/08/11/%E4%BB%BF%E7%94%9F%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BC%9A%E6%A2%A6%E8%A7%81%E7%94%B5%E5%AD%90%E7%BE%8A%E5%90%97/" rel="prev" title="统计学习讨论 笔记">
+      <i class="fa fa-chevron-left"></i> 统计学习讨论 笔记
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/08/30/my-new-post/" rel="next" title="由“摩尔钓鱼”想到的">
-      由“摩尔钓鱼”想到的 <i class="fa fa-chevron-right"></i>
+    <a href="/2022/02/14/shumobiji/" rel="next" title="MCM算法整理">
+      MCM算法整理 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -398,7 +398,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#idea"><span class="nav-number">1.</span> <span class="nav-text">- idea </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92"><span class="nav-number">2.</span> <span class="nav-text">线性回归</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E7%B1%BB"><span class="nav-number">3.</span> <span class="nav-text">分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9%E4%B8%8E%E6%AD%A3%E5%88%99%E5%8C%96"><span class="nav-number">4.</span> <span class="nav-text">线性模型选择与正则化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B"><span class="nav-number">5.</span> <span class="nav-text">非线性模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E4%BA%8E%E6%A0%91%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">6.</span> <span class="nav-text">基于树的方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA"><span class="nav-number">7.</span> <span class="nav-text">支持向量机</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%A9%E5%B0%94%E9%92%93%E9%B1%BC"><span class="nav-number">1.</span> <span class="nav-text">摩尔钓鱼</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10000-lt-x-y-lt-10000"><span class="nav-number">2.</span> <span class="nav-text">-10000&lt;x,y&lt;10000</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">解题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-1"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-2"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-3"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-4"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-5"><span class="nav-number"></span> <span class="nav-text">include</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-6"><span class="nav-number"></span> <span class="nav-text">include </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-7"><span class="nav-number"></span> <span class="nav-text">include </span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#include-8"><span class="nav-number"></span> <span class="nav-text">include </span></a></div>
       </div>
       <!--/noindex-->
 
@@ -560,61 +560,6 @@
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-          load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
